@@ -71,12 +71,26 @@
         android:layout_gravity="right"
         android:text="Lưu thông tin" />
 
-    <Button
-        android:id="@+id/btnDN"
-        android:layout_width="293dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:text="Đăng nhập" />
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDN"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text="Đăng nhập" />
+
+        <Button
+            android:id="@+id/btnThoat"
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Thoát" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/thongbao"
